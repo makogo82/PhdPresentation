@@ -25,11 +25,11 @@
 % A subtitle is optional and this may be deleted
 \subtitle{XXX PhD Cycle}
 
-\institute[Inst.]{Università degli Studi di Roma "Tor Vergata"\\ \includegraphics[height=1cm,width=2cm]{senac-logo}}
-\author[author]{Candidate: Mateusz Gospodarczyk\\ \\ Supervisor: Ph.D Daniele Carnevale\\ Co-supervisor: Dr. Basilio Esposito and Ph.D Luca Boncagni}
+\institute[Tor Vergata]{Università degli Studi di Roma "Tor Vergata"\\ \includegraphics[height=1cm,width=5cm]{senac-logo}}
+\author[Mateusz Gospodarczyk]{Candidate: Mateusz Gospodarczyk\\ \\ Supervisor: Ph.D Daniele Carnevale\\ Co-supervisor: Dr. Basilio Esposito and Ph.D Luca Boncagni}
 
-\pgfdeclareimage[height=0.7cm]{senac-logo}{senac-logo.pdf}
-\logo{\pgfuseimage{senac-logo}\hspace*{0.5cm}}
+
+
 
 
 \AtBeginSubsection[]
@@ -288,15 +288,6 @@ P_{tot} &= \frac{d W}{dt} = P_{gain} - P_{coll} - \color{blue}{P_{synch}} \color
 	\includegraphics[width=0.9\textwidth]{drive/tecnicalreis.png}
 \end{figure}
 \end{frame}
-
-\begin{frame}{REIS SYSTEM: portable}
-    \begin{figure}
-    \centering
-    \includegraphics[width=0.6\linewidth]{Chapter2Fig/rebeam_comparison.pdf};
-    \end{figure} 
-\end{frame}
-
-
 
 \begin{frame}{REIS SYSTEM: Calibration}
 \begin{figure}
@@ -567,6 +558,8 @@ The acquisition system is based on \textbf{MARTe} framework (Multi-threaded Appl
         \centering
         \includegraphics[width=0.7\textwidth]{inter/inter_40638.pdf}
     \end{figure}
+    
+    
 \end{frame}
 
 
@@ -735,12 +728,12 @@ $x_3$ is a rough estimate of the RE energy that is a function of the loop voltag
 %------------------------------------------------------------------------------
 \section{Summary}
 \begin{frame}{Summary}
+    \scriptsize
 	\begin{itemize}
-    	\item REIS SYSTEM: data analysis, installation, calibration, software and hardware development and energy estimation.
-		\item Development of a real-time acquisition system for the elaboration in real-time of the density along 32.
-		\item (RECS) framework: $I_p$ ramp-down (1MA/s up to 200 ms) and of a  reduction of $R_{ext}$, there are indications of the RE beam energy suppression and reduced interactions with the vessel.
-		\item Control oriented dynamic models. 
-		\item Hysteresis phenomena.
+		\item REs data analysis: hysteresis phenomena.
+    	\item REIS SYSTEM: data analysis, installation (FTU, AUG and TCV), calibration, data acquisition development and energy estimation.
+		\item Development of a real-time acquisition system of a two-color scanning beam interferometer.
+		\item (RECS) framework: Control-oriented models, Post-disruption RE beam suppression (FTU, COMPASS and TCV), FTU Vloop oscillations, FTU plasma elongation control.
 	\end{itemize}
 \end{frame}
 
